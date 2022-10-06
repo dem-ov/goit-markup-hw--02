@@ -1,0 +1,306 @@
+:root {
+  --best-color1: #2196f3;
+  --best-color2: #f5f5f5;
+  --best-color3: #212121;
+  --best-color4: #757575;
+  --best-color5: #f5f4fa;
+  --best-color6: #2f303a;
+  --best-color7: #000000;
+  --best-color8: #ffffff;
+  --best-color9: #ffffff99;
+}
+
+.body {
+  background-color: var(--best-color8);
+  font-family: "Roboto", sans-serif;
+  color: var(--best-color3);
+  text-decoration: none;
+}
+.logo-nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--best-color7);
+  text-decoration: none;
+  font-style: normal;
+  line-height: 31px;
+}
+
+.nav-item-text {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: var(--best-color3);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-item-text:focus {
+  color: var(--best-color1);
+}
+.nav-item-text:hover {
+  color: var(--best-color1);
+}
+.nav-list {
+  list-style-type: none;
+}
+.conts {
+  list-style-type: none;
+}
+
+.mail:hover {
+  color: var(--best-color1);
+}
+.mail {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--best-color4);
+}
+.mail:focus {
+  color: var(--best-color8);
+  color: var(--best-color1);
+}
+
+.tel:hover {
+  color: var(--best-color1);
+}
+.tel {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--best-color4);
+}
+.tel:focus {
+  color: var(--best-color8);
+  color: var(--best-color1);
+}
+
+.hero {
+  background-color: var(--best-color6);
+}
+.hero-text {
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--best-color8);
+  text-transform: uppercase;
+}
+.main-batton {
+  background-color: var(--best-color1);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--best-color8);
+}
+.main-batton {
+  cursor: pointer;
+}
+.main-batton:hover {
+  background-color: var(--best-color1);
+}
+
+.dot {
+  list-style-type: none;
+}
+.h3-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--best-color3);
+  text-transform: uppercase;
+}
+
+.p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--best-color4);
+}
+.h2-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--best-color3);
+}
+.team-foto {
+  list-style-type: none;
+  background-color: var(--best-color8);
+}
+.our-team {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--best-color3);
+}
+.name-team {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--best-color3);
+}
+.team-professions {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--best-color4);
+}
+.address {
+  background-color: var(--best-color6);
+}
+.logo-nav-address {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--best-color8);
+  text-decoration: none;
+  font-style: normal;
+}
+.bot {
+  list-style-type: none;
+  font-style: normal;
+}
+.cont-address-text {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--best-color8);
+}
+.cont-mail-text {
+  text-decoration: none;
+  height: 21px;
+  width: 231px;
+  left: 215px;
+  top: 2235px;
+  border-radius: nullpx;
+  color: var(--best-color9);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+}
+.cont-tel-tex {
+  text-decoration: none;
+  height: 21px;
+  width: 231px;
+  left: 215px;
+  top: 2235px;
+  border-radius: nullpx;
+  color: var(--best-color9);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+}
+.batton-portfolio {
+  list-style-type: none;
+}
+
+.portfolio-batton:hover {
+  color: var(--best-color8);
+  background-color: var(--best-color1);
+}
+.portfolio-batton:active {
+  cursor: pointer;
+  color: var(--best-color8);
+  background-color: var(--best-color1);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-style: none;
+}
+.portfolio-batton {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--best-color3);
+  cursor: pointer;
+}
+
+.portfolio-batton:focus {
+  color: var(--best-color8);
+  background-color: var(--best-color1);
+}
+.img {
+  list-style-type: none;
+}
+.project-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--best-color3);
+}
+.work {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--best-color4);
+}
+
+.foto {
+  list-style-type: none;
+}
+.team {
+  background-color: var(--best-color5);
+}
